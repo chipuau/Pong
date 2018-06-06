@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Ball.h">
+      <Filter>Souce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBallGame.h">
+      <Filter>Souce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpponentPaddle.h">
+      <Filter>Souce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Souce Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPaddle.h">
+      <Filter>Souce Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBallGame.cpp">
+      <Filter>Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpponentPaddle.cpp">
+      <Filter>Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPaddle.cpp">
+      <Filter>Souce Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Souce Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{f9017ea1-ce6d-44aa-b125-0b927ece9c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{d2559e5f-d776-4cd3-890e-b76c5ba9a1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Souce Files">
+      <UniqueIdentifier>{627fcb14-3892-4c67-8ea4-fae1e3d03754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Textures\Ball.png">
+      <Filter>Content\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Souce Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
